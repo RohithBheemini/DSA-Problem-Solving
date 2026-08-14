@@ -11,17 +11,16 @@ class Codechef
 		int T = sc.nextInt();
 		for(int i=0;i<T;i++){
 		    int N = sc.nextInt();
-		    String[] input = sc.nextLine().split(" ");
-		    int[] arr = new int[N];
 		    int max =Integer.MIN_VALUE;
+		    int[] arr=new int[N];
 		    for(int j=0;j<N;j++){
-		        arr[i]=Integer.parseInt(input[i]);
-		        if(arr[i]>max){
-		            max=arr[i];
+		        arr[j]=sc.nextInt();
+		        if(arr[j]>max){
+		            max=arr[j];
 		        }
 		    }
-		    System.out.print(max);
+		    System.out.println(max);
 		}
-
+        sc.close();
 	}
 }
