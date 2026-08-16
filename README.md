@@ -47,3 +47,10 @@
 *Last updated: 2026-08-16* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0009-palindrome-number) |
+<!---LeetCode Topics End-->
