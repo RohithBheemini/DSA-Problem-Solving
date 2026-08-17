@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-7-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-8-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-5_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-8--17--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **6** |
+| 🟢 Easy | **7** |
 | 🟡 Medium | **1** |
 | 🔴 Hard | **0** |
-| **Total** | **7** |
+| **Total** | **8** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **7** |
+| Java | **8** |
 
 ## 📂 Repository Structure
 
@@ -47,14 +47,3 @@
 *Last updated: 2026-08-17* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
-## Two Pointers
-|  |
-| ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0026-remove-duplicates-from-sorted-array) |
-<!---LeetCode Topics End-->
