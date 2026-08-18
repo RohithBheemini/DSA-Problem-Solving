@@ -47,3 +47,14 @@
 *Last updated: 2026-08-18* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0704-binary-search) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0704-binary-search) |
+<!---LeetCode Topics End-->
