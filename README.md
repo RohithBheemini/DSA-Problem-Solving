@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-11-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-12-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-8--25--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **10** |
+| 🟢 Easy | **11** |
 | 🟡 Medium | **1** |
 | 🔴 Hard | **0** |
-| **Total** | **11** |
+| **Total** | **12** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **11** |
+| Java | **12** |
 
 ## 📂 Repository Structure
 
@@ -47,14 +47,3 @@
 *Last updated: 2026-08-25* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0001-two-sum) |
-<!---LeetCode Topics End-->
