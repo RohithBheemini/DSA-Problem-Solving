@@ -6,8 +6,7 @@ class Solution {
             int r = l+1;
             while(r<nums.length){
                 if(nums[l]+nums[r]==target){
-                    arr[0]=l;
-                    arr[1]=r;
+                    return new int[]{l,r};
                 }
                 r++;
             }
