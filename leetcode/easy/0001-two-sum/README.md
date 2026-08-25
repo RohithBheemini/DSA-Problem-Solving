@@ -53,9 +53,9 @@ Output: [0,1]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 51 ms (beats 5.81%)  
-**Memory:** 46.7 MB (beats 91.00%)  
-**Submitted:** 2026-08-25T16:51:16.397Z  
+**Runtime:** 46 ms (beats 14.05%)  
+**Memory:** 47.1 MB (beats 59.47%)  
+**Submitted:** 2026-08-25T16:59:55.981Z  
 
 ```java
 class Solution {
@@ -66,8 +66,7 @@ class Solution {
             int r = l+1;
             while(r<nums.length){
                 if(nums[l]+nums[r]==target){
-                    arr[0]=l;
-                    arr[1]=r;
+                    return new int[]{l,r};
                 }
                 r++;
             }
