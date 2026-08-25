@@ -47,3 +47,14 @@
 *Last updated: 2026-08-25* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
