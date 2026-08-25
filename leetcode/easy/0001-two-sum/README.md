@@ -1,0 +1,83 @@
+# Two Sum
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+You are given an array of integers `nums` and an integer `target`, return  *indices of the two numbers such that they add up to `target`*.
+
+You may assume that each input would have  ***exactly *one solution**, and you may not use the* same* element twice.
+
+You can return the answer in any order.
+
+ 
+
+ **Example 1:** 
+
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+```
+
+ **Example 2:** 
+
+```
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+```
+
+ **Example 3:** 
+
+```
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
+```
+
+ 
+
+ **Constraints:** 
+
+- 2 <= nums.length <= 104
+- -109 <= nums[i] <= 109
+- -109 <= target <= 109
+- Only one valid answer exists.
+
+ 
+
+ **Follow-up:** Can you come up with an algorithm that is less than `O(n2)` time complexity?
+
+## Solution
+
+**Language:** Java  
+**Runtime:** 51 ms (beats 5.81%)  
+**Memory:** 46.7 MB (beats 91.00%)  
+**Submitted:** 2026-08-25T16:51:16.397Z  
+
+```java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int l=0;
+        int[] arr=new int[2];
+        while(l<nums.length){
+            int r = l+1;
+            while(r<nums.length){
+                if(nums[l]+nums[r]==target){
+                    arr[0]=l;
+                    arr[1]=r;
+                }
+                r++;
+            }
+            l++;
+        }
+        return arr;
+    }
+}
+```
+
+---
+
+[View on LeetCode](https://leetcode.com/problems/two-sum/)
