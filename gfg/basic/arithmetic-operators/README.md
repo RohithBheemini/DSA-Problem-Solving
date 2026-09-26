@@ -30,39 +30,30 @@ Hence, the output is 3 -1 2 0.500 0 1.
 ```
 
 ```
-Input: x = 3,y = 4 
+Input: x = 3, y = 4 
 Output: 7 -1 12 0.750 0 3
 Explanation: The given operations are performed.
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:43:58.421Z  
+**Submitted:** 2026-09-26T09:49:05.452Z  
 
-```java
-import java.util.*;
+```py
+x = int(input())
+y = int(input())
 
-class GFG {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-
-        // code here
-        int p =x+y;
-        int q =x-y;
-        int r =x*y;
-        double s=x/(y*1.0);
-        int t=x/y;
-        int u =x%y;
-
-        System.out.printf("%d %d %d %.3f %d %d", p, q, r, s, t, u);
-    }
-}
+# code here
+p=x+y
+q=x-y
+r=x*y
+s=x/y
+t=x//y
+u=x%y
+print(p, q, r, f"{s:.3f}", t, u)
 ```
 
 ---
