@@ -8,12 +8,12 @@ class GFG {
         int y = sc.nextInt();
 
         // code here
-        int p =x+y;
-        int q =x-y;
-        int r =x*y;
-        double s=x/(y*1.0);
+        int p=x+y;
+        int q=x-y;
+        int r=x*y;
+        float s=(float)x/y;
         int t=x/y;
-        int u =x%y;
+        int u=x%y;
 
         System.out.printf("%d %d %d %.3f %d %d", p, q, r, s, t, u);
     }
