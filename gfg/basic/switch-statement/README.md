@@ -20,26 +20,55 @@ Output: One
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:52:48.831Z  
+**Submitted:** 2026-10-03T16:20:51.565Z  
 
-```py
-n = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-match n:
-    case 1: print("One")
-    case 2: print("Two")
-    case 3: print("Three")
-    case 4: print("Four")
-    case 5: print("Five")
-    case 6: print("Six")
-    case 7: print("Seven")
-    case 8: print("Eight")
-    case 9: print("Nine")
-    case _: print("Unknown")
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        // code here
+        switch (n){
+            case 1:
+                System.out.print("One");
+                break;
+            case 2:
+                System.out.print("Two");
+                break;
+            case 3:
+                System.out.print("Three");
+                break;
+            case 4:
+                System.out.print("Four");
+                break;
+            case 5:
+                System.out.print("Five");
+                break;
+            case 6:
+                System.out.print("Six");
+                break;
+            case 7:
+                System.out.print("Seven");
+                break;
+            case 8:
+                System.out.print("Eight");
+                break;
+            case 9:
+                System.out.print("Nine");
+                break;    
+            default:
+                System.out.print("Unknown");
+                break;
+        }
+    }
+}
+
 ```
 
 ---
