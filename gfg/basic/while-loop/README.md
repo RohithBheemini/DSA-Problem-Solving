@@ -22,18 +22,28 @@ Explanation: Numbers in decreasing order from 5 are 5 4 3 2 1 0.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:38:51.810Z  
+**Submitted:** 2026-10-03T15:53:20.238Z  
 
-```py
-x = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-while(x>=0):
-    print(x,end=' ')
-    x-=1
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+
+        // code here
+        while(x>=0){
+            System.out.print(x+" ");
+            x--;
+        }
+    }
+}
+
 ```
 
 ---
