@@ -25,17 +25,23 @@ GFG GFG GFG
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:57:32.880Z  
+**Submitted:** 2026-10-03T16:23:30.243Z  
 
-```py
-n = int(input())
+```java
+import java.util.Scanner;
 
-# Code here
-for i in range(0,n):
-    print("GFG",end=' ')
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        // code here
+        for(int i=0;i<n;i++)System.out.print("GFG"+" ");
+    }
+}
 ```
 
 ---
