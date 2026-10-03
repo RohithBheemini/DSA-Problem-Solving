@@ -21,17 +21,26 @@ Output: 19
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T10:00:30.554Z  
+**Submitted:** 2026-10-03T16:37:44.328Z  
 
-```py
-d = float(input())
+```java
+import java.io.*;
+import java.util.*;
 
-#code here
-d=int(d//1)
-print(d)
+class GFG {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        double d = sc.nextDouble();
+
+        // code here
+        int k=(int)d;
+        System.out.print(k);
+    }
+}
+
 ```
 
 ---
