@@ -37,23 +37,32 @@ Explanation: The given operations are performed.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:49:05.452Z  
+**Submitted:** 2026-10-03T16:11:18.563Z  
 
-```py
-x = int(input())
-y = int(input())
+```java
+import java.util.*;
 
-# code here
-p=x+y
-q=x-y
-r=x*y
-s=x/y
-t=x//y
-u=x%y
-print(p, q, r, f"{s:.3f}", t, u)
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        // code here
+        int p=x+y;
+        int q=x-y;
+        int r=x*y;
+        float s=(float)x/y;
+        int t=x/y;
+        int u=x%y;
+
+        System.out.printf("%d %d %d %.3f %d %d", p, q, r, s, t, u);
+    }
+}
 ```
 
 ---
