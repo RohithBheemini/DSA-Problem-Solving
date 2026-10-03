@@ -21,18 +21,24 @@ Output: 8
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:55:55.790Z  
+**Submitted:** 2026-10-03T16:22:31.694Z  
 
-```py
-n = int(input())
+```java
+import java.util.*;
 
-# code here
-if(n>=0): print(n%10)
-else:
-    print(abs(n)%10)
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        // code here
+        if(n>=0)System.out.print(n%10);
+        else System.out.print(-n%10);
+    }
+}
 ```
 
 ---
