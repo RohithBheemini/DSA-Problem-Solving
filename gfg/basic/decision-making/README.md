@@ -29,22 +29,26 @@ Explanation: 8 > 4 so print 'greater'.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:44:01.671Z  
+**Submitted:** 2026-10-03T15:55:03.782Z  
 
-```py
-n = int(input())
-m = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-if n<m:
-    print("less")
-elif n==m:
-    print("equal")
-else:
-    print("greater")
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        // code here
+        if(n<m)System.out.println("less");
+        else if(n==m)System.out.println("equal");
+        else System.out.println("greater");
+    }
+}
 ```
 
 ---
