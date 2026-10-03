@@ -26,25 +26,31 @@ Output:
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:46:31.239Z  
+**Submitted:** 2026-10-03T15:56:46.785Z  
 
-```py
-a = int(input())
-b = int(input())
-c = int(input())
+```java
+import java.util.Scanner;
 
-# Prints a
-print(a)
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-# Prints b
-#print(b)
+        // Prints a
+        System.out.println(a);
 
-# Prints c
-print(c)
+        // Prints b
+        //System.out.println(b);
 
+        // Prints c
+        System.out.println(c);
+    }
+}
 ```
 
 ---
