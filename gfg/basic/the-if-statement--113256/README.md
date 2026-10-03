@@ -28,17 +28,23 @@ Explanation: 101 is greater than 100, so we print Big and Number will be printed
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:45:46.500Z  
+**Submitted:** 2026-10-03T15:56:18.034Z  
 
-```py
-# code here
-n = int(input())
-if n>100:
-    print("Big")
-print("Number")
+```java
+import java.util.*;
+
+public class Solution {
+    public static void solve() {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        // code here
+        if(n>100)System.out.println("Big");
+        System.out.println("Number");
+    }
+}
 ```
 
 ---
