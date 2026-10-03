@@ -28,22 +28,30 @@ Explanation: We print d e f g after performing the given operations.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:58:57.256Z  
+**Submitted:** 2026-10-03T16:24:30.396Z  
 
-```py
-a = int(input())
-b = int(input())
-c = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-d=a^a
-e=c^b
-f=a&b
-g=~e
-print(d, e, f, g)
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        // code here
+        int d=a^a;
+        int e=c^b;
+        int f=a&b;
+        int g=~e;
+
+        System.out.println(d + " " + e + " " + f + " " + g);
+    }
+}
 ```
 
 ---
