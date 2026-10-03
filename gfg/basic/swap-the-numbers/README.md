@@ -24,18 +24,29 @@ Explanation: Initially a = 6 and b = 7, now a = 7 and b = 6.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:46:56.981Z  
+**Submitted:** 2026-10-03T15:59:08.410Z  
 
-```py
-a = int(input())
-b = int(input())
+```java
+import java.util.Scanner;
 
-# code here
-a,b=b,a
-print(a, b)
+class GFG {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        // code here
+        a=a+b;
+        b=a-b;
+        a=a-b;
+
+        System.out.println(a + " " + b);
+    }
+}
+
 ```
 
 ---
