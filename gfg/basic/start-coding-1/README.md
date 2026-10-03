@@ -17,14 +17,19 @@ Explanation: Prints the first message traditionally used to begin learning progr
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T08:37:35.192Z  
+**Submitted:** 2026-10-03T15:45:51.630Z  
 
-```py
-# code here
-print("Hello World")
+```java
+class GFG {
+    public static void main(String[] args) {
+        // code here
+        System.out.println("Hello World");
+        
+    }
+}
 ```
 
 ---
