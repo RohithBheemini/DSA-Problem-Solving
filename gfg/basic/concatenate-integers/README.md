@@ -25,7 +25,7 @@ Explanation: Concatenate them.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T06:35:51.770Z  
+**Submitted:** 2026-10-04T06:40:02.061Z  
 
 ```java
 import java.lang.*;
@@ -38,11 +38,7 @@ class GFG {
         int b = sc.nextInt();
 
         // code here
-        int c;
-        if(a<10) c=a*10+b;
-        else if(a>=10 && a<100) c=a*100+b;
-        else c=a*1000+b;
-        System.out.print(c);
+        System.out.print(""+a+b);
     }
 }
 ```
