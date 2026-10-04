@@ -8,10 +8,6 @@ class GFG {
         int b = sc.nextInt();
 
         // code here
-        int c;
-        if(a<10) c=a*10+b;
-        else if(a>=10 && a<100) c=a*100+b;
-        else c=a*1000+b;
-        System.out.print(c);
+        System.out.print(""+a+b);
     }
 }
