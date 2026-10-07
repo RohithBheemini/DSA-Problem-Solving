@@ -52,29 +52,21 @@ Output: [0,1]
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 45 ms (beats 27.29%)  
-**Memory:** 47.3 MB (beats 11.20%)  
-**Submitted:** 2026-08-25T16:57:59.892Z  
+**Language:** Python  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 20.4 MB (beats 42.52%)  
+**Submitted:** 2026-10-07T16:55:48.402Z  
 
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int l=0;
-        int[] arr=new int[2];
-        while(l<nums.length){
-            int r = l+1;
-            while(r<nums.length){
-                if(nums[l]+nums[r]==target){
-                    return new int[]{l,r};
-                }
-                r++;
-            }
-            l++;
-        }
-        return arr;
-    }
-}
+```py
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen = {}
+        for i, num in enumerate(nums):
+            needed = target - num
+            if needed in seen:
+                return [seen[needed], i]
+            seen[num] = i
+        return []
 ```
 
 ---
