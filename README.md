@@ -48,3 +48,14 @@
 *Last updated: 2026-10-31* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0050-powx-n) |
+<!---LeetCode Topics End-->
