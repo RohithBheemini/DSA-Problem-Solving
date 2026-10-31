@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-99-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-101-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-10--31--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **25** |
-| 🟡 Medium | **7** |
+| 🟢 Easy | **26** |
+| 🟡 Medium | **8** |
 | 🔴 Hard | **0** |
-| **Total** | **99** |
+| **Total** | **101** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **85** |
+| Java | **87** |
 | Python | **14** |
 
 ## 📂 Repository Structure
@@ -48,14 +48,3 @@
 *Last updated: 2026-10-31* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0050-powx-n](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0050-powx-n) |
-## Recursion
-|  |
-| ------- |
-| [0050-powx-n](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0050-powx-n) |
-<!---LeetCode Topics End-->
