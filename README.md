@@ -48,3 +48,10 @@
 *Last updated: 2026-10-31* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0507-perfect-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0507-perfect-number) |
+<!---LeetCode Topics End-->
