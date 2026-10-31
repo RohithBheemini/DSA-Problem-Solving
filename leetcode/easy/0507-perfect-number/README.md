@@ -37,22 +37,24 @@ Output: false
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2179 ms (beats 5.27%)  
-**Memory:** 41.7 MB (beats 85.03%)  
-**Submitted:** 2026-10-31T09:54:53.618Z  
+**Runtime:** 2 ms (beats 88.14%)  
+**Memory:** 41.7 MB (beats 79.69%)  
+**Submitted:** 2026-10-31T10:04:55.386Z  
 
 ```java
 class Solution {
     public boolean checkPerfectNumber(int num) {
-        if(num<=0) return false;
-        int sum=0;
-        for(int i=1;i<num/2+1;i++){
+        if(num<=1) return false;
+        int sum=1;
+        for(int i=2;i<=num/i;i++){
             if(num%i==0){
                 sum+=i;
             }
+            if(num%i==0 && i!=num/i){
+                sum+=num/i;
+            }
         }
-        if(sum==num) return true;
-        return false;
+        return sum==num;
     }
 }
 ```
