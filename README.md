@@ -48,3 +48,14 @@
 *Last updated: 2026-11-01* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0125-valid-palindrome) |
+<!---LeetCode Topics End-->
