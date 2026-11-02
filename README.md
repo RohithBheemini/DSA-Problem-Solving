@@ -48,3 +48,22 @@
 *Last updated: 2026-11-02* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
+<!---LeetCode Topics End-->
