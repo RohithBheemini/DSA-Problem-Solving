@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-106-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-107-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-3_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-11--2--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **31** |
+| 🟢 Easy | **32** |
 | 🟡 Medium | **8** |
 | 🔴 Hard | **0** |
-| **Total** | **106** |
+| **Total** | **107** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **92** |
+| Java | **93** |
 | Python | **14** |
 
 ## 📂 Repository Structure
@@ -48,22 +48,3 @@
 *Last updated: 2026-11-02* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
-## Recursion
-|  |
-| ------- |
-| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
-## Memoization
-|  |
-| ------- |
-| [0509-fibonacci-number](https://github.com/RohithBheemini/DSA-Problem-Solving/tree/master/0509-fibonacci-number) |
-<!---LeetCode Topics End-->
